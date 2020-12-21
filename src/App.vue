@@ -1,12 +1,16 @@
 <template>
   <div id="app">
-    <h1>go</h1>
     <!-- 路由出口 -->
-    <router-view/>
+    <router-view />
   </div>
 </template>
 <script>
-export default {}
+export default {
+  data () {
+    return {
+    }
+  }
+}
 </script>
 <style lang="less">
 </style>
